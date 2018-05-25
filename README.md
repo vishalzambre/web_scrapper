@@ -26,13 +26,10 @@ Web Scrapper is a tool which provides 2. API's
 
 1. List all extracted pages with there content
 
-  Method : `GET`
-
-  URL: `/api/v1/pages`
-
-  Headers: `Content-Type: application/vnd.api+json`
-
-  Response:
+  * Method : `GET`
+  * URL: `/api/v1/pages`
+  * Headers: `Content-Type: application/vnd.api+json`
+  * Response:
   ```
     {
      "data":[
@@ -106,15 +103,11 @@ Web Scrapper is a tool which provides 2. API's
 
 2. Accept web url and scrap website and extracts header tags & anchors
 
-  Method : `POST`
-
-  URL: `/api/v1/pages`
-
-  Headers: `Content-Type: application/vnd.api+json`
-
-  Params: `{"data": { "type": "pages", "attributes": {"url": "https://vishal.zambre.in"}}}`
-
-  Response:
+  * Method : `POST`
+  * URL: `/api/v1/pages`
+  * Headers: `Content-Type: application/vnd.api+json`
+  * Params: `{"data": { "type": "pages", "attributes": {"url": "https://vishal.zambre.in"}}}`
+  * Response:
 
   ```
     {
